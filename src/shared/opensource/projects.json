@@ -1,0 +1,134 @@
+{
+  "data": [
+    {
+      "id": "R_kgDOJ5L0P",
+      "name": "7SearchPPC Admin",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/ashutosh1919/7SearchPPC-Admin",
+      "description": "Admin interface for the 7SearchPPC platform, built with React, Laravel, MySQL, and Git.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos-laravel"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "logos-mysql"
+        },
+        {
+          "name": "Git",
+          "iconifyClass": "logos-git"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJ5L0Q",
+      "name": "7SearchPPC Publisher",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/ashutosh1919/7SearchPPC-Publisher",
+      "description": "Publisher interface for the 7SearchPPC platform, built with React, Laravel, MySQL, and Git.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos-laravel"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "logos-mysql"
+        },
+        {
+          "name": "Git",
+          "iconifyClass": "logos-git"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJ5L0R",
+      "name": "7SearchPPC Advertiser",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/ashutosh1919/7SearchPPC-Advertiser",
+      "description": "Advertiser interface for the 7SearchPPC platform, built with React, Laravel, MySQL, and Git.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos-laravel"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "logos-mysql"
+        },
+        {
+          "name": "Git",
+          "iconifyClass": "logos-git"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJ5L0S",
+      "name": "7SearchPPC Referral",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/ashutosh1919/7SearchPPC-Referral",
+      "description": "Referral system for the 7SearchPPC platform, built with React, Laravel, MySQL, and Git.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos-laravel"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "logos-mysql"
+        },
+        {
+          "name": "Git",
+          "iconifyClass": "logos-git"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJ5L0T",
+      "name": "7SearchPPC Referral Admin",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/ashutosh1919/7SearchPPC-Referral-Admin",
+      "description": "Admin interface for the 7SearchPPC referral system, built with React, Laravel, MySQL, and Git.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos-laravel"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "logos-mysql"
+        },
+        {
+          "name": "Git",
+          "iconifyClass": "logos-git"
+        }
+      ]
+    }
+  ]
+}

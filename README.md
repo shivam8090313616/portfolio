@@ -2,7 +2,7 @@
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 <p align="center"> 
-    <img src="images/image.png" align="center" height="150"></img>
+    <img src="images/image.png" align="center" height="550"></img>
 </p>
 # Sections 📚
 

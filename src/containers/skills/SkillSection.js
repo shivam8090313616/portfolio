@@ -42,7 +42,7 @@ class SkillSection extends Component {
           return (
             <div key={i} className="skills-main-div ">
               <Fade left duration={2000}>
-                <div className="skills-image-div" style={{height:"500px", borderRight:"3px solid gray"}}>
+                <div className="skills-image-div" style={{height:"500px"}}>
                   <GetSkillSvg  fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>

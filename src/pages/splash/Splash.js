@@ -3,12 +3,12 @@ import "./Splash.css";
 import { Redirect } from "react-router-dom";
 import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
+import { PacmanLoader } from "react-spinners";
 function AnimatedSplash(props) {
   return (
     <div className="logo_wrapper">
       <div className="screen" style={{ backgroundColor: props.theme.splashBg }}>
-        <LoaderLogo id="logo" theme={props.theme} />
-        {/* Shivam */}
+        <PacmanLoader color="#36D7B7" loading={true} size={50} />
       </div>
     </div>
   );
@@ -26,8 +26,8 @@ class Splash extends Component {
     this.id = setTimeout(() => this.setState({ redirect: true }), 5500);
   }
 
-  componentWillMount() {
-    clearTimeout(this.id);
+  componentWillUnmount() {
+    clearTimeout(this.id); // Use componentWillUnmount instead of componentWillMount
   }
 
   render() {

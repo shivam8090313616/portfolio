@@ -179,7 +179,7 @@ const skills = {
       fileName: "DatabasesImg",
       skills: [
         "⚡ MSSQL",
-        "⚡ MySQLi",
+        "⚡ MySQL",
         "⚡ MongoDB (Basic)",
         "⚡ Firebase (Basic)",
       ],
@@ -221,6 +221,10 @@ const skills = {
         "⚡ Git, GitHub",
         "⚡ SDLC (Software Development Life Cycle)",
         "⚡ Postman",
+        "⚡ Jira",
+        "⚡ Bitbucket",
+        "⚡ Swagger",
+        "⚡ Thunder Client",
       ],
       softwareSkills: [
         {
@@ -244,16 +248,44 @@ const skills = {
             color: "#FF6C37",
           },
         },
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: {
+            color: "#0052CC",
+          },
+        },
+        {
+          skillName: "Bitbucket",
+          fontAwesomeClassname: "simple-icons:bitbucket",
+          style: {
+            color: "#0052CC",
+          },
+        },
+        {
+          skillName: "Swagger",
+          fontAwesomeClassname: "simple-icons:swagger",
+          style: {
+            color: "#85EA2D",
+          },
+        },
+        {
+          skillName: "Thunder Client",
+          fontAwesomeClassname: "simple-icons:thunder-client",
+          style: {
+            color: "#FFD700",
+          },
+        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infra-Architecture In Learning",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Learning to work with multiple cloud platforms",
+        "⚡ Understanding how to host and maintain websites on virtual machine instances with database integration",
+        "⚡ Gaining skills in deploying deep learning models on the cloud for mobile devices",
+        "⚡ Exploring how to set up streaming jobs between databases and servers on GCP and AWS",
       ],
       softwareSkills: [
         {
@@ -363,15 +395,15 @@ const competitiveSites = {
       siteName: "Polytechnic",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#D5A6A8", 
+        color: "#D5A6A8",
       },
-      profileLink: "https://yourpolytechnicwebsite.com", 
+      profileLink: "https://yourpolytechnicwebsite.com",
     },
     {
       siteName: "Intermediate",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#7B92AB", 
+        color: "#7B92AB",
       },
       profileLink: "https://yourintermediatecollegewebsite.com",
     },
@@ -379,21 +411,20 @@ const competitiveSites = {
       siteName: "High School",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#4A90E2", 
+        color: "#4A90E2",
       },
-      profileLink: "https://yourhighschoolwebsite.com", 
+      profileLink: "https://yourhighschoolwebsite.com",
     },
     {
       siteName: "B.Tech",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#9B59B6", 
+        color: "#9B59B6",
       },
       profileLink: "https://yourbtechcollegewebsite.com",
     },
   ],
 };
-
 
 const degrees = {
   degrees: [
@@ -408,7 +439,8 @@ const degrees = {
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I haven't physically attended college, I have been studying remotely and working at the same time.",
       ],
-      website_link: "https://www.mcsgoc.com/dr-mc-saxena-college-of-engineering-and-technology.php",
+      website_link:
+        "https://www.mcsgoc.com/dr-mc-saxena-college-of-engineering-and-technology.php",
     },
     {
       title: "MMP Of Information Technology, Dhanapur-Chandauli, Uttar Pradesh",
@@ -421,20 +453,21 @@ const degrees = {
         "⚡ Worked as a research assistant developing algorithms in Graph Machine Learning and Network Science.",
         "⚡ Participated in multimedia projects, including documentary films and interviews.",
       ],
-      website_link: "https://www.mmpchandauli.ac.in/aicte.html"
-    },    
+      website_link: "https://www.mmpchandauli.ac.in/aicte.html",
+    },
   ],
 };
 const certifications = {
   certifications: [
     {
       title: "ECMAScript",
-      subtitle: "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
+      subtitle:
+        "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
       icon_name: "js", // Example using FontAwesome
       certificate_link: "https://example.com/certification/7search-ecmascript",
       alt_name: "7Search PPC",
       color_code: "#123456",
-      skills: ["JavaScript", "ECMAScript"]
+      skills: ["JavaScript", "ECMAScript"],
     },
     {
       title: "Express.js",
@@ -443,25 +476,27 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-expressjs",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["Express.js", "Node.js"]
+      skills: ["Express.js", "Node.js"],
     },
     {
       title: "Microsoft SQL Server",
       subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
       icon_name: "microsoft", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/techpile-mssqlserver",
+      certificate_link:
+        "https://example.com/certification/techpile-mssqlserver",
       alt_name: "Techpile Technology Pvt. Ltd.",
       color_code: "#987654",
-      skills: ["Microsoft SQL Server", "SQL"]
+      skills: ["Microsoft SQL Server", "SQL"],
     },
     {
       title: "React.js",
-      subtitle: "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
+      subtitle:
+        "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
       icon_name: "react", // Example using FontAwesome
       certificate_link: "https://example.com/certification/7search-reactjs",
       alt_name: "7Search PPC",
       color_code: "#123456",
-      skills: ["React.js", "JavaScript"]
+      skills: ["React.js", "JavaScript"],
     },
     {
       title: "Laravel",
@@ -470,88 +505,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-laravel",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["Laravel", "PHP"]
-    },
-    {
-      title: "MySQLi",
-      subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
-      icon_name: "sql", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/techpile-mysqli",
-      alt_name: "Techpile Technology Pvt. Ltd.",
-      color_code: "#987654",
-      skills: ["MySQLi", "SQL"]
-    },
-    {
-      title: "Vanilla JavaScript",
-      subtitle: "NoSpaceTech · Lucknow, Uttar Pradesh, India",
-      icon_name: "js", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/nospacetech-vanilla-js",
-      alt_name: "NoSpaceTech",
-      color_code: "#ABCDEF",
-      skills: ["Vanilla JavaScript", "JavaScript"]
-    },
-    {
-      title: "JavaScript",
-      subtitle: "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
-      icon_name: "js", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/7search-javascript",
-      alt_name: "7Search PPC",
-      color_code: "#123456",
-      skills: ["JavaScript"]
-    },
-    {
-      title: "CSS",
-      subtitle: "Logelite Pvt. Ltd. · Mahanagar - Lucknow · On-site",
-      icon_name: "css3", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/logelite-css",
-      alt_name: "Logelite Pvt. Ltd.",
-      color_code: "#654321",
-      skills: ["CSS", "Web Development"]
-    },
-    {
-      title: "SQL",
-      subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
-      icon_name: "sql", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/techpile-sql",
-      alt_name: "Techpile Technology Pvt. Ltd.",
-      color_code: "#987654",
-      skills: ["SQL"]
-    },
-    {
-      title: "HTML5",
-      subtitle: "NoSpaceTech · Lucknow, Uttar Pradesh, India",
-      icon_name: "html5", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/nospacetech-html5",
-      alt_name: "NoSpaceTech",
-      color_code: "#ABCDEF",
-      skills: ["HTML5"]
-    },
-    {
-      title: "Node.js",
-      subtitle: "Logelite Pvt. Ltd. · Mahanagar - Lucknow · On-site",
-      icon_name: "node-js", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/logelite-nodejs",
-      alt_name: "Logelite Pvt. Ltd.",
-      color_code: "#654321",
-      skills: ["Node.js"]
-    },
-    {
-      title: "Core PHP",
-      subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
-      icon_name: "php", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/techpile-core-php",
-      alt_name: "Techpile Technology Pvt. Ltd.",
-      color_code: "#987654",
-      skills: ["Core PHP", "PHP"]
-    },
-    {
-      title: "PHP",
-      subtitle: "NoSpaceTech · Lucknow, Uttar Pradesh, India",
-      icon_name: "php", // Example using FontAwesome
-      certificate_link: "https://example.com/certification/nospacetech-php",
-      alt_name: "NoSpaceTech",
-      color_code: "#ABCDEF",
-      skills: ["PHP"]
+      skills: ["Laravel", "PHP"],
     },
     {
       title: "MySQL",
@@ -560,7 +514,90 @@ const certifications = {
       certificate_link: "https://example.com/certification/techpile-mysql",
       alt_name: "Techpile Technology Pvt. Ltd.",
       color_code: "#987654",
-      skills: ["MySQL"]
+      skills: ["MySQL", "SQL"],
+    },
+    {
+      title: "Vanilla JavaScript",
+      subtitle: "NoSpaceTech · Lucknow, Uttar Pradesh, India",
+      icon_name: "js", // Example using FontAwesome
+      certificate_link:
+        "https://example.com/certification/nospacetech-vanilla-js",
+      alt_name: "NoSpaceTech",
+      color_code: "#ABCDEF",
+      skills: ["Vanilla JavaScript", "JavaScript"],
+    },
+    {
+      title: "JavaScript",
+      subtitle:
+        "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
+      icon_name: "js", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/7search-javascript",
+      alt_name: "7Search PPC",
+      color_code: "#123456",
+      skills: ["JavaScript"],
+    },
+    {
+      title: "CSS",
+      subtitle: "Logelite Pvt. Ltd. · Mahanagar - Lucknow · On-site",
+      icon_name: "css3", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/logelite-css",
+      alt_name: "Logelite Pvt. Ltd.",
+      color_code: "#654321",
+      skills: ["CSS", "Web Development"],
+    },
+    {
+      title: "SQL",
+      subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
+      icon_name: "sql", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/techpile-sql",
+      alt_name: "Techpile Technology Pvt. Ltd.",
+      color_code: "#987654",
+      skills: ["SQL"],
+    },
+    {
+      title: "HTML5",
+      subtitle: "NoSpaceTech · Lucknow, Uttar Pradesh, India",
+      icon_name: "html5", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/nospacetech-html5",
+      alt_name: "NoSpaceTech",
+      color_code: "#ABCDEF",
+      skills: ["HTML5"],
+    },
+    {
+      title: "Node.js",
+      subtitle: "Logelite Pvt. Ltd. · Mahanagar - Lucknow · On-site",
+      icon_name: "node-js", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/logelite-nodejs",
+      alt_name: "Logelite Pvt. Ltd.",
+      color_code: "#654321",
+      skills: ["Node.js"],
+    },
+    {
+      title: "Core PHP",
+      subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
+      icon_name: "php", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/techpile-core-php",
+      alt_name: "Techpile Technology Pvt. Ltd.",
+      color_code: "#987654",
+      skills: ["Core PHP", "PHP"],
+    },
+    {
+      title: "PHP",
+      subtitle: "NoSpaceTech · Lucknow, Uttar Pradesh, India",
+      icon_name: "php", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/nospacetech-php",
+      alt_name: "NoSpaceTech",
+      color_code: "#ABCDEF",
+      skills: ["PHP"],
+    },
+    {
+      title: "MySQL",
+      subtitle: "Techpile Technology Pvt. Ltd. · Lucknow, Uttar Pradesh, India",
+      icon_name: "sql", // Example using FontAwesome
+      certificate_link: "https://example.com/certification/techpile-mysql",
+      alt_name: "Techpile Technology Pvt. Ltd.",
+      color_code: "#987654",
+      skills: ["MySQL"],
     },
     {
       title: "MongoDB",
@@ -569,9 +606,9 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-mongodb",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["MongoDB"]
-    }
-  ]
+      skills: ["MongoDB"],
+    },
+  ],
 };
 
 // Experience Page
@@ -753,7 +790,6 @@ const contactPageData = {
     subtitle: "",
   },
 };
-
 
 export {
   settings,

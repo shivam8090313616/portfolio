@@ -28,7 +28,6 @@ class Contact extends Component {
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                   alt=""
-                  
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -72,7 +71,7 @@ class Contact extends Component {
                   <Button
                     text="Visit My Blogsite"
                     newTab={true}
-                    href={blogSection.link}
+                    // href={blogSection.link}
                     theme={theme}
                   />
                 </div>
